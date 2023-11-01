@@ -1,331 +1,63 @@
-@import "fonts.css";
-html {
-  font-size: 10px;
-  font-family: "Montserrat", sans-serif;
-  scroll-behavior: smooth;
-  overflow: overlay;
-  background-color: #13141e;
-  margin: 0;
-  padding: 0;
-  /*track da scroll transparente*/
+body{
+	background: #13141e;
+	color: #828282;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  font-family: "Montserrat", sans-serif;
-  color: #ffff;
-  background-color: #13141e;
-  padding: 0;
-  margin: 0;
-  overflow-x: hidden;
-  /*gambi foda-se*/
+header{	
+	padding:20px;
+	display: flex;
+	justify-content: space-around;
 }
 
-::-webkit-scrollbar {
-  width: 12px;
+h2{
+	text-align: center;
+    font-size: 6rem;
+    color: #ff5501;
+	font-weight: 600;
+	padding: 20px;
 }
 
-::-webkit-scrollbar-thumb {
-  background: #f84802;
-  border-radius: 6px;
-}
-a {
-  text-decoration: none;
+.branquin{
+	color: #fff9f9;
 }
 
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 6rem;
-  color: #ff5501;
-  padding-left: 43%;
+.laranjinha{
+	color:#ff5501;
 }
 
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
-  color: #ff5501;
- padding-left: 30vh;
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #ff5501;
 }
 
-button:hover {
-  background-color: #2c5357;
+.azulzin{
+	color:aqua;
 }
 
-.linhaHorizon {
-  width: 100%;
-  border: 1px solid #ff5501;
+.contato{
+    font-size: 2rem;
+    color: #fff9f9;
+    background-image: linear-gradient( 90deg, rgba(255, 85, 1) 0.2%, rgba(246, 250, 0, 0.648) 100% );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
 }
 
-.linhaHorizonP{
-  width: 100%;
-  border: 1px solid #ff5501;
-  margin-top: 5%;
-}
-
-.what__description {
-  width: 20%;
-  font-family: "Montserrat", sans-serif;
-  font-size: 6rem;
-  color: #ff5501;
-}
-
-.headerItens {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 13%;
-  margin-right: -62%;
-  margin-left: 10%;
-}
-
-.imgTeste {
-  margin-left: 15%;
-}
-
-.imgteste {
-  width:18%;
-  border-radius: 50%;
-}
-
-.information { 
-  padding-top: 1%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.cabecalho {
-  background-color: #13141e;
-  position: fixed;
-  padding-top: 1%;
-  width: 100%;
-  z-index: 3;
-
-}
-
-.sou {
-  font-family: "Montserrat", sans-serif;
-  width: 56%;
-  font-size: 7rem;
-  padding-left: 5%;
-}
-
-.cargo {
-  font-size: 3rem;
-  color: #828282;
-}
-
-.sobre {
-  font-size: 3rem;
-  color: #828282;
-/*  display: flex;
-  flex-direction: column;
-  align-items: center; */
-}
-
-.sobreP {
-  padding: 0% 18%;
-  text-align: justify;
-  
-}
-
-.contato {
-  margin-top: -10%;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  color: #fff9f9;
-  padding: 1.2rem 2.7rem;
-  background-image: linear-gradient(
-    90deg,
-    rgba(255, 85, 1) 0.2%,
-    rgba(246, 250, 0, 0.648) 100%
-  );
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 2rem;
-  transition: 0.3s;
-}
-
-.botao {
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none; 
-  color: #fff9f9;
-}
-
-.projetos {
-  margin-top: 5%;
-}
-
-.container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #13141e;
-}
-
-.card {
-  border-radius: 16px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  cursor: pointer;
-  width: 360px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
-  background-image: linear-gradient(#462b15, #13141e);
-  transition: all 0.5s;
-}
-
-.card:hover {
-  background-image: linear-gradient(#ff5501, #ff5501);
-}
-
-.card .img {
-  width: 360px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  transition: all 0.5s;
-  z-index: 2;
-  position: relative;
-  opacity: 0.8;
-}
-
-.card .img span {
-  text-transform: uppercase;
-  font-size: 24px;
-  font-weight: 100;
-  font-style: italic;
-  transition: all 0.5s;
-}
-
-.card:hover .img {
-  width: 430px;
-  opacity: 1;
-}
-
-.card:hover .img span {
-  font-size: 28px;
-}
-
-.card .content {
-  padding: 0px 20px;
-  height: 0;
-  opacity: 0;
-  transition: all 0.5s;
-  position: relative;
-  box-sizing: border-box;
-  overflow: hidden;
-  transform: translateY(30px);
-}
-
-.card:hover .content {
-  height: 260px;
-  padding: 20px;
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.card .content p {
-  margin: 0;
-}
-
-.card .content .title {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.card .content .desc {
-  font-size: 14px;
-  font-weight: 100;
-  opacity: 0.8;
-  margin-top: 8px;
-}
-
-.card .arrow {
-  padding: 15px;
-  transform: rotate(-180deg);
-  transition: all 0.5s;
-}
-
-.card:hover .arrow {
-  transform: rotate(0);
-}
-
-.card .arrow span {
-  font-size: 24px;
-}
-
-.what__description p {
-  padding: 0% 45%;
-  font-size: 4rem;
-}
-
-.type_Spotlight {
-  color: #ff5501;
-}
-
-.verProjeto {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.3rem;
-  color: #fff9f9;
-  padding: 1.2rem 2.7rem;
-  background-image: linear-gradient(
-    90deg,
-    rgba(19,20,30,1) 0.2%,
-    rgba(19,20,30,1)
-  );
-  border-radius: 2rem;
-  transition: 0.3s;
-  margin-top: 6.5vh;
-  margin-left: 30%;
-}
-
-.verProjeto:hover {
-  background-image: linear-gradient(#3f1601, #ff5501);
+.botao{
+    font-size: 20px;
+    color: #fff9f9;
+    background-image: linear-gradient( 90deg, rgba(255, 85, 1) 0.2%, rgba(246, 250, 0, 0.648) 100% );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+	padding: 10px;
+	margin: 10px;
 }
 
 
-.botaoVer {
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none; 
-  color: #f1f0f8;
-}
-
-.copy {
-  font-family: "Montserrat", sans-serif;
-  font-size: 75%;
-  text-align: center;
-  padding: 1vh;
-  background-color: #24242e;
-  margin-top: 10%;
-}
-
-.iconsContatos {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 7.5rem;
-  justify-content: center;
-}
-
-.icons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.icons:hover {
-  transform: scale(110%);
-}
-
-.sobreIcon {
-  font-size: 2rem;
-  color: #828282;
-  margin: 5%;
-
+footer p a {
+	margin: 5px 15px;
 }
