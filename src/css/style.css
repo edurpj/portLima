@@ -12,11 +12,16 @@ header {
 
 h2 {
 	text-align: center;
-	font-size: 6rem;
+	font-size: 4.5rem;
 	color: #ff5501;
 	font-weight: 600;
 	padding: 20px;
 }
+
+footer p a {
+	margin: 5px 15px;
+}
+
 
 .branquin {
 	color: #fff9f9;
@@ -39,11 +44,16 @@ h2 {
 	font-size: 2.5rem;
 	color: #13141e;
 	font-weight: 600;
-	background-image: linear-gradient(90deg, rgba(255, 85, 1) 0.2%, rgb(255, 85, 1) 100%);
+	background-color: #ff5501;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	border-radius: 20px;
+}
+
+.contato:hover {
+	color: rgb(7, 6, 5);
+	background-color: #c2490c;
 }
 
 .botao {
@@ -58,11 +68,11 @@ h2 {
 	margin: 10px;
 }
 
-
-footer p a {
-	margin: 5px 15px;
+.tipeCard {
+	font-size: 3rem;
+	color: #ff5501;
+	text-align: start;
 }
-
 
 .linhaHorizon {
 	width: 100%;
@@ -90,7 +100,10 @@ footer p a {
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #c2490c;
-    border-color: #c2490c;
+	color: #fff;
+	background-color: #c2490c;
+	border-color: #c2490c;
+	border: none;
 }
+
+
