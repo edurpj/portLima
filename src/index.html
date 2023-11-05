@@ -1,202 +1,223 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="icon" href="img/favIco.png">
-    <title>Guilherme Lima</title>
-  </head>
 
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" href="img/favIco.png">
+  <title>Guilherme Lima</title>
+</head>
 
-    <header>
-      <div class="container">
-        <div class="row">
-          <img src="img/logo.png" class="img-fluid">
+<body>
+
+  <header>
+    <div>
+      <div>
+        <img src="img/logo.png" class="img-fluid">
+      </div>
+    </div>
+  </header>
+
+  <div class="linhaHorizon"></div>
+
+  <section id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 d-flex">
+          <div class="align-self-center">
+            <h1 class="display-4 branquin">Olá, eu sou o </h1>
+            <h1 class="display-4 laranjinha">Guilherme Lima</h1>
+            <a href="" class="btn contato">Contato</a>
+          </div>
+        </div>
+        <div class="col-md-6 d-none d-md-block">
+          <img src="img/capa-desenho.jpg" style="width: 500px; border-radius: 50%;">
         </div>
       </div>
-    </header>  
+    </div>
+  </section>
 
-    <section id="home">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 d-flex">
-            <div class="align-self-center">
-              <h1 class="display-4 branquin">Olá, eu sou o </h1>
-              <h1 class="display-4 laranjinha">Guilherme Lima</h1>
-              <a href="" class="btn contato">Contato</a>
+  <section class="caixa">
+
+    <div class="container">
+      <div class="row">
+        <div class="d-flex">
+          <div class="align-self-center">
+            <h2>Sobre mim</h2>
+            <p>
+              Lorem ipsum dolor sit amet. Quo quis voluptatum est recusandae facere non galisum consequatur.
+              Qui quia nemo et quia optio et minima dolore et dicta explicabo sit adipisci soluta aut
+              eveniet inventore non omnis delectus. Aut molestiae iusto ad dolores
+              deleniti sed tempora similique aut error quam cum enim voluptatem.
+              Vel sunt voluptatum non corrupti provident aut odit tenetur!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="caixa">
+    <div class="container">
+      <h2>Projetos</h2>
+      <div class="container mt-5">
+        <section class="card-section row">
+
+          <!-- Card 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2zB3oxpL8JM?si=SN6lZc59JtyazY_F"allowfullscreen></iframe>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Título 1</h3>
+                <button class="btn btn-primary" onclick="showDetails('details1')">Mais Informações</button>
+                <div class="details" id="details1">
+                  <p>Esses são mais detalhes sobre o card. Você pode adicionar o conteúdo que quiser aqui.Esses são mais
+                    detalhes sobre o card. Você pode adicionar o conteúdo que quiser aquiEsses são mais detalhes sobre o
+                    card. Você pode adicionar o conteúdo que quiser aquiEsses são mais detalhes sobre o card. Você pode
+                    adicionar o conteúdo que quiser aqui</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-md-6 d-none d-md-block">
-            <img src="img/capa-desenho.jpg" style="width: 500px;">
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="caixa">
-      
-      <div class="container">
-        <div class="row">
-          <div class="d-flex">
-            <div class="align-self-center">
-              <h2>Sobre mim</h2>
-              <p>
-                Lorem ipsum dolor sit amet. Quo quis voluptatum est recusandae facere non galisum consequatur.
-                Qui quia nemo et quia optio et minima dolore et dicta explicabo sit adipisci soluta aut
-                eveniet inventore non omnis delectus. Aut molestiae iusto ad dolores
-                deleniti sed tempora similique aut error quam cum enim voluptatem.
-                Vel sunt voluptatum non corrupti provident aut odit tenetur!
-              </p>
+          <!-- Card 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/motion.jpeg" alt="Imagem Demonstrativa" class="card-img-top">
+              <div class="card-body">
+                <h3 class="card-title">Título 2</h3>
+                <button class="btn btn-primary" onclick="showDetails('details2')">Mais Informações</button>
+                <div class="details" id="details2">
+                  <p>Esses são mais detalhes sobre o card. Você pode adicionar o conteúdo que quiser aqui.Esses são mais
+                    detalhes sobre o card. Você pode adicionar o conteúdo que quiser aquiEsses são mais detalhes sobre o
+                    card. Você pode adicionar o conteúdo que quiser aquiEsses são mais detalhes sobre o card. Você pode
+                    adicionar o conteúdo que quiser aqui</p>
+                </div>
+              </div>
             </div>
           </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/motion.jpeg" alt="Imagem Demonstrativa" class="card-img-top">
+              <div class="card-body">
+                <h3 class="card-title">Título 3</h3>
+                <button class="btn btn-primary" onclick="showDetails('details3')">Mais Informações</button>
+                <div class="details" id="details3">
+                  <p>conteúdo que quiser aqui.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/motion.jpeg" alt="Imagem Demonstrativa" class="card-img-top">
+              <div class="card-body">
+                <h3 class="card-title">Título 4</h3>
+                <button class="btn btn-primary" onclick="showDetails('details4')">Mais Informações</button>
+                <div class="details" id="details4">
+                  <p>conteúdo que quiser aqui.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/motion.jpeg" alt="Imagem Demonstrativa" class="card-img-top">
+              <div class="card-body">
+                <h3 class="card-title">Título 5</h3>
+                <button class="btn btn-primary" onclick="showDetails('details5')">Mais Informações</button>
+                <div class="details" id="details5">
+                  <p>conteúdo que quiser aqui.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/motion.jpeg" alt="Imagem Demonstrativa" class="card-img-top">
+              <div class="card-body">
+                <h3 class="card-title">Título 6</h3>
+                <button class="btn btn-primary" onclick="showDetails('details6')">Mais Informações</button>
+                <div class="details" id="details6">
+                  <p>conteúdo que quiser aqui.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <!-- Card 7 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/motion.jpeg" alt="Imagem Demonstrativa" class="card-img-top">
+              <div class="card-body">
+                <h3 class="card-title">Título 7</h3>
+                <button class="btn btn-primary" onclick="showDetails('details7')">Mais Informações</button>
+                <div class="details" id="details7">
+                  <p>conteúdo dsffdsfdsfdsfdsfdsfsdfsdfsdsfdfdssfdsdfsfddsfsfdfdssdf.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </section>
+      </div>
+  </section>
+
+  <footer class="mt-4 mb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <p>
+            Copyright © 2023 - Guilherme Lima dos Anjos. Todos os diretos reservados. Desenvolvido por edurpj
+          </p>
+        </div>
+        <div class="col-md-4 d-flex justify-content-end">
+          <a href="" class="btn iconRede ml-2">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="" class="btn iconRede ml-2">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/@GLIMAGG" target="_blank" class="btn iconRede ml-2">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://www.youtube.com/@GLIMAGG" target="_blank" class="btn iconRede ml-2">
+            <i class="fab fa-whatsapp"></i>
+          </a>
         </div>
       </div>
-    </section>
+    </div>
+  </footer>
 
-    <section class="caixa">
-      <div class="container">
-        <h2>Projetos</h2>
-        <div class="row">
-          <div class="col-md-3">
-            <img src="img/motion.jpeg" class="img-fluid">
-            <h4>OLorem ipsum dolor sit amet</h4>
-            <p>
-              OLorem ipsum dolor sit amet. Quo quis voluptatum est recusandae facere non galisum consequatur.
-              Qui quia nemo et quia optio et minima dolore et dicta explicabo sit adipisci soluta aut
-            </p>
-            <a href="" class="btn botao">Contato</a>
-          </div>
-          <div class="col-md-3">
-            <img src="img/motion.jpeg" class="img-fluid">
-            <h4>OLorem ipsum dolor sit amet</h4>
-            <p>
-              OLorem ipsum dolor sit amet. Quo quis voluptatum est recusandae facere non galisum consequatur.
-              Qui quia nemo et quia optio et minima dolore et dicta explicabo sit adipisci soluta aut
-            </p>
-          </div>
-          <div class="col-md-3">
-            <img src="img/motion.jpeg" class="img-fluid">
-            <h4>OLorem ipsum dolor sit amet</h4>
-            <p>
-              OLorem ipsum dolor sit amet. Quo quis voluptatum est recusandae facere non galisum consequatur.
-              Qui quia nemo et quia optio et minima dolore et dicta explicabo sit adipisci soluta aut
-            </p>
-          </div>
-          <div class="col-md-3">
-            <img src="img/motion.jpeg" class="img-fluid">
-            <h4>OLorem ipsum dolor sit amet</h4>
-            <p>
-              OLorem ipsum dolor sit amet. Quo quis voluptatum est recusandae facere non galisum consequatur.
-              Qui quia nemo et quia optio et minima dolore et dicta explicabo sit adipisci soluta aut
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            <img src="img/motion.jpeg" class="img-fluid">
-            <h4>OLorem ipsum dolor sit amet</h4>
-            <p>
-              OLorem ipsum dolor sit amet. Quo quis voluptatum est recusandae facere non galisum consequatur.
-              Qui quia nemo et quia optio et minima dolore et dicta explicabo sit adipisci soluta aut
-            </p>
-          </div>
-          <div class="col-md-3">
-            <img src="img/motion.jpeg" class="img-fluid">
-            <h4>OLorem ipsum dolor sit amet</h4>
-            <p>
-              OLorem ipsum dolor sit amet. Quo quis voluptatum est recusandae facere non galisum consequatur.
-              Qui quia nemo et quia optio et minima dolore et dicta explicabo sit adipisci soluta aut
-            </p>
-          </div>
-          <div class="col-md-3">
-            <img src="img/motion.jpeg" class="img-fluid">
-            <h4>OLorem ipsum dolor sit amet</h4>
-            <p>
-              OLorem ipsum dolor sit amet. Quo quis voluptatum est recusandae facere non galisum consequatur.
-              Qui quia nemo et quia optio et minima dolore et dicta explicabo sit adipisci soluta aut
-            </p>
-          </div>
-          <div class="col-md-3">
-            <img src="img/motion.jpeg" class="img-fluid">
-            <h4>OLorem ipsum dolor sit amet</h4>
-            <p>
-              OLorem ipsum dolor sit amet. Quo quis voluptatum est recusandae facere non galisum consequatur.
-              Qui quia nemo et quia optio et minima dolore et dicta explicabo sit adipisci soluta aut
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            <img src="img/motion.jpeg" class="img-fluid">
-            <h4>OLorem ipsum dolor sit amet</h4>
-            <p>
-              OLorem ipsum dolor sit amet. Quo quis voluptatum est recusandae facere non galisum consequatur.
-              Qui quia nemo et quia optio et minima dolore et dicta explicabo sit adipisci soluta aut
-            </p>
-          </div>
-          <div class="col-md-3">
-            <img src="img/motion.jpeg" class="img-fluid">
-            <h4>OLorem ipsum dolor sit amet</h4>
-            <p>
-              OLorem ipsum dolor sit amet. Quo quis voluptatum est recusandae facere non galisum consequatur.
-              Qui quia nemo et quia optio et minima dolore et dicta explicabo sit adipisci soluta aut
-            </p>
-          </div>
-          <div class="col-md-3">
-            <img src="img/motion.jpeg" class="img-fluid">
-            <h4>OLorem ipsum dolor sit amet</h4>
-            <p>
-              OLorem ipsum dolor sit amet. Quo quis voluptatum est recusandae facere non galisum consequatur.
-              Qui quia nemo et quia optio et minima dolore et dicta explicabo sit adipisci soluta aut
-            </p>
-          </div>
-          <div class="col-md-3">
-            <img src="img/motion.jpeg" class="img-fluid">
-            <h4>OLorem ipsum dolor sit amet</h4>
-            <p>
-              OLorem ipsum dolor sit amet. Quo quis voluptatum est recusandae facere non galisum consequatur.
-              Qui quia nemo et quia optio et minima dolore et dicta explicabo sit adipisci soluta aut
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="scripts/scripts.js"></script>
+</body>
 
-    <footer class="mt-4 mb-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <p>
-              Copyright © 2023 - Guilherme Lima dos Anjos. Todos os diretos reservados. Desenvolvido por edurpj
-            </p>
-          </div>
-          <div class="col-md-4 d-flex justify-content-end">
-            <a href="" class="btn azulzin ml-2">
-              <i class="fab fa-facebook"></i>
-            </a>
-            <a href="" class="btn azulzin ml-2">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="" class="btn azulzin ml-2">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="" class="btn azulzin ml-2">
-              <i class="fab fa-youtube"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
 </html>
